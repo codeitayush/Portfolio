@@ -29,6 +29,11 @@ const Projects = () => {
             {project.technologies.map((tech, index)=>(<span key = {index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900" >
                 {tech}
             </span>))}
+            <div className="mt-2 flex items-center ">
+            <a className="inline-block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent text-xs mr-11" href={project.gitHub} target="_blank" rel="github">View on GitHub</a>
+            <a className="inline-block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent text-xs " href={project.Link} target="_blank" rel="github">Visit website</a>
+            </div>
+            
             </motion.div>
             </div>))}
 

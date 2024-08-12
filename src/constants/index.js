@@ -20,6 +20,8 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    gitHub: "https://github.com/codeitayush/shop-buddy",
+    Link: "https://shop-buddy-rhdw.onrender.com",
   },
   {
     title: "CHAT-AI",
@@ -27,6 +29,8 @@ export const PROJECTS = [
     description:
       "CHAT-AI is an AI language model that is capable of answering questions, generating text, code and more......",
     technologies: ["HTML", "CSS", "React"],
+    gitHub: "https://github.com/codeitayush/CHAT-AI",
+    Link: "https://chat-ai-wv14.onrender.com",
   },
   {
     title: "Portfolio Website",
@@ -34,6 +38,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    gitHub: "https://github.com/codeitayush/Portfolio",
+    Link: "https://portfolio-g28b.onrender.com",
   },
   
 ];
